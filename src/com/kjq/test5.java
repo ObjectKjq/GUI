@@ -22,6 +22,7 @@ public class test5 {
                 if (e.getSource() == textField){
                     textArea.setText(textField.getText());
                 //fsf
+                    //kfjjas
                 }
             }
         });
