@@ -21,6 +21,7 @@ public class test5 {
                 //getText获取里面的内容
                 if (e.getSource() == textField){
                     textArea.setText(textField.getText());
+                    //sjfs
                 //fsf
                 }
             }
