@@ -23,6 +23,7 @@ public class test5 {
                     textArea.setText(textField.getText());
                     //sjfs
                 //fsf
+                    //kfjjas
                 }
             }
         });
