@@ -17,15 +17,10 @@ public class test5 {
         textField.addTextListener(new TextListener() {
             @Override
             public void textValueChanged(TextEvent e) {
-                //setTextÉèÖÃÎÄ±¾ÄÚÈİ
-                //getText»ñÈ¡ÀïÃæµÄÄÚÈİ
+                //setTextè®¾ç½®æ–‡æœ¬å†…å®¹
+                //getTextè·å–é‡Œé¢çš„å†…å®¹
                 if (e.getSource() == textField){
                     textArea.setText(textField.getText());
-                    //sjfs
-                    //fsf
-                    //kfjjas
-                    //123
-                    //123
                 }
             }
         });
