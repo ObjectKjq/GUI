@@ -4,6 +4,7 @@ import java.awt.*;
 
 public class test1 {
     public static void main(String[] args) {
+
         Frame frame = new Frame("kjq");
         frame.setSize(400, 300);
         frame.setVisible(true);
