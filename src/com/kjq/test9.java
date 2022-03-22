@@ -47,17 +47,7 @@ public class test9 {
 
         frame.add(verticalBox);
 
-        button1.addMouseListener(new MouseListener() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mousePressed(MouseEvent e) {
-
-            }
-
+        button1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
                 if(Integer.parseInt(tf1.getText()) > random){
@@ -73,16 +63,6 @@ public class test9 {
                     label2.setText("");
                     label4.setText("恭喜答对了,共答了" + num);
                 }
-            }
-
-            @Override
-            public void mouseEntered(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mouseExited(MouseEvent e) {
-
             }
         });
 
