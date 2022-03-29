@@ -25,8 +25,11 @@ public class SwingTuXiang {
         jFrame.add(jLabel);
         jFrame.add(jLabel1,BorderLayout.SOUTH);
 
+        //设置窗口时的默认操作
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //窗口可见
         jFrame.setVisible(true);
+        //窗口的位置和大小
         jFrame.setBounds(200, 200, 500, 450);
     }
 }
